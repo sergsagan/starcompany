@@ -1,0 +1,33 @@
+//Color
+
+$base-color: rgb(255, 255, 255);
+
+$stack-color: rgb(131, 166, 228);
+
+$error-color: rgb(226, 42, 50);
+
+$form-color: rgb(225, 230, 235);
+
+$step-color: rgb(109, 186, 46);
+
+$input-color: rgb(110, 116, 124);
+
+
+//Font-Family
+
+$OpenSans: 'Open Sans', sans-serif;
+
+$ProximaNovaLight: 'Proxima Nova Light', sans-serif;
+
+$ProximaNovaBold: 'Proxima Nova Bold', sans-serif;
+
+$Arial: 'Arial', sans-serif;
+
+//breakpoints
+
+$breakpoints: (
+        'xs': (max-width: 480px),
+        'sm': (max-width: 768px),
+        'md': (max-width: 1024px),
+        'lg': (max-width: 1200px)
+);

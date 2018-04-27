@@ -1,0 +1,115 @@
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  #regForm {
+    padding: 40px 0;
+    min-width: 200px;
+  }
+  #regForm .tab {
+    max-width: 200px;
+  }
+  #regForm .form-control {
+    width: 200px;
+  }
+  #prevBtn {
+    margin-left: -40px;
+  }
+  #nextBtn {
+    width: 40px;
+    font-size: 13px;
+    margin-right: -40px;
+  }
+  .enter .form-control {
+    margin-bottom: 15px;
+  }
+  .enter {
+    width: 100%;
+    max-width: 230px;
+    top: 5px;
+    right: 70px;
+  }
+  .header__logo img{
+    max-width: 165px;
+  }
+  .btn-login {
+    width: 60px;
+    height: 30px;
+    line-height: 26px;
+  }
+  .btn-login:hover {
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+  }
+  .btn-login.active {
+    line-height: 30px;
+  }
+  .btn-login:focus {
+    line-height: 30px;
+  }
+  .header {
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  #regForm {
+    padding: 40px 20px;
+    min-width: 260px;
+  }
+  #regForm .tab {
+    max-width: 260px;
+  }
+  #regForm .form-control {
+    width: 260px;
+  }
+  #prevBtn {
+    margin-left: -40px;
+  }
+  #nextBtn {
+    width: 80px;
+    font-size: 13px;
+    margin-right: -40px;
+  }
+  .enter .form-control {
+    margin-bottom: 15px;
+  }
+  .enter {
+    width: 100%;
+    max-width: 230px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .hero h1 span {
+    font-size: 22px;
+  }
+  .hero h1 {
+    font-size: 18px;
+  }
+  #regForm {
+    padding: 40px 20px;
+    min-width: 260px;
+  }
+  #regForm .tab {
+    max-width: 260px;
+  }
+  #regForm .form-control {
+    width: 260px;
+  }
+  #prevBtn {
+    margin-left: -10px;
+  }
+  #nextBtn {
+    width: 100px;
+    font-size: 13px;
+    margin-right: -30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #prevBtn {
+    margin-left: -15px;
+  }
+  #nextBtn {
+    margin-right: -15px;
+  }
+}

@@ -1,0 +1,191 @@
+.enter{
+  padding: 0 6.5px;
+  display: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: absolute;
+  top: 14px;
+  right: 80px;
+
+
+  .form-control{
+    display: flex;
+    flex-direction: column;
+    padding: 0 6.5px;
+  }
+
+  input{
+    width: 100%;
+    max-width: 200px;
+    height: 40px;
+    background-color: $base-color;
+    padding: 0 15px;
+    border: 0;
+    outline: none;
+    color: $input-color;
+    font-family: $Arial;
+    font-size: 14px;
+    font-weight: 700;
+
+    @include border-radius(4px);
+    @include placeholder($color: $input-color)
+  }
+
+  .input_email{
+    margin-bottom: 10px;
+  }
+  .input_password{
+    margin-bottom: 22px;
+  }
+  .message{
+    display: block;
+    color: $base-color;
+    background-color: $error-color;
+    font-family: $Arial;
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+    padding: 15px 10px;
+    max-width: 200px;
+    margin: 0 auto;
+
+    @include border-radius(4px);
+  }
+
+  .forgot{
+    color: $base-color;
+    font-family: $Arial;
+    font-size: 11px;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+}
+
+.open{
+  display: flex;
+}
+
+#regForm {
+  margin: 100px auto;
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
+  position: relative;
+
+  .form-control{
+    width: 362px;
+    height: 93px;
+    padding: 5px 4px;
+    background-color: rgb(126, 135, 138);
+    z-index: 10;
+    position: relative;
+    margin-bottom: 20px;
+
+    @include border-radius(4px);
+  }
+
+  label{
+    display: block;
+    color: $base-color;
+    font-family: $OpenSans;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  select{
+    display: block;
+  }
+  input, textarea{
+    width: 100%;
+    height: 58px;
+    padding: 15px;
+    background-color: $base-color;
+    font-family: $OpenSans;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+
+    @include placeholder($color: rgb(110, 116, 124));
+  }
+
+  .text-block{
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+    text-align: center;
+    opacity: 0.5;
+    color: $base-color;
+    font-family: $OpenSans;
+    font-size: 11px;
+    font-weight: 700;
+
+    a{
+      opacity: 0.5;
+      color: $base-color;
+      font-family: $OpenSans;
+      font-size: 11px;
+      font-weight: 700;
+      text-decoration: underline;
+    }
+  }
+  /* Mark input boxes that gets an error on validation: */
+  input.invalid {
+    background-color: $error-color;
+  }
+
+  /* Hide all steps by default: */
+  .tab {
+    display: none;
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto 20px;
+  }
+
+  .button-wrap{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 620px;
+    position: absolute;
+    top: 70px;
+    z-index: 1;
+  }
+
+  button:hover {
+    opacity: 0.8;
+  }
+
+  /* Make circles that indicate the steps of the form: */
+  .step {
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: transparent;
+    border: 1px solid $base-color;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .step.active {
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: $base-color;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 1;
+  }
+
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: $base-color;
+    opacity: 1;
+  }
+}
+
+
+
+
