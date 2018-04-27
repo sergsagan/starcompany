@@ -1,4 +1,4 @@
-# My gulp-template
+# starcompany
 
 скачиваем, устанавливаем зависимости:
 # npm && bower install
@@ -10,8 +10,5 @@
 # builds/development & builds/production
 используются:
 # enjoy gulp-ruby-sass, main-bower-files, gulp-sprites
-# starcompany
-# starcompany
-# starcompany-new
-# starcompany
-# starcompany
+
+
